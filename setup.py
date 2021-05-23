@@ -13,5 +13,5 @@ setup(name='mlprojectreboot',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/mlprojectreboot-run'],
+      scripts=['scripts/mlprojectreboot-run', 'scripts/mlprojectreboot-computedist'],
       zip_safe=False)
